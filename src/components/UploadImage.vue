@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { Storage } from 'aws-amplify';
 export default {
   name: 'UploadImage',
   data() {
@@ -19,16 +18,8 @@ export default {
     onFileChange(e) {
       this.file = e.target.files[0];
     },
-    async uploadFile() {
-      try {
-        const result = await Storage.put(this.file.name, this.file, {
-          contentType: this.file.type,
-        });
-        console.log('File uploaded:', result);
-      } catch (error) {
-        console.error('Error uploading file:', error);
-      }
-    }
+   
+    
   }
 };
 </script>
