@@ -1,0 +1,13 @@
+{
+  "resourceName": "s3Images",
+  "policyUUID": "69b70de1",
+  "bucketName": "fit5225s3",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "S3Triggercc3728d2",
+  "groupAccess": {}
+}
