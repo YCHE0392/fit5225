@@ -8,12 +8,16 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build --force"
+    "type-check": "vue-tsc --build --force",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@aws-amplify/ui-vue": "^4.2.8",
     "aws-amplify": "^6.3.4",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.0.0",
@@ -21,6 +25,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.5",
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/runtime-dom": "^3.4.27",
     "@vue/tsconfig": "^0.5.1",
     "aws-cdk": "^2.137.0",
     "aws-cdk-lib": "^2.137.0",
