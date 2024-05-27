@@ -16,7 +16,7 @@
     }
   },
   "auth": {
-    "fit522535cdabc7": {
+    "fit5225419e0a43": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -29,7 +29,9 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL"
+          "EMAIL",
+          "FAMILY_NAME",
+          "GIVEN_NAME"
         ],
         "socialProviders": [],
         "usernameAttributes": [

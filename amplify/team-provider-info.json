@@ -12,13 +12,10 @@
       "AmplifyAppId": "d3o47vok6up855"
     },
     "categories": {
-      "auth": {
-        "fit522535cdabc7": {}
-      },
       "function": {
         "uploadimage": {
           "deploymentBucketName": "amplify-fit5225-dev-85959-deployment",
-          "s3Key": "amplify-builds/uploadimage-754f43616e6857707733-build.zip"
+          "s3Key": "amplify-builds/uploadimage-66414b77545132704165-build.zip"
         },
         "S3Triggercc3728d2": {
           "deploymentBucketName": "amplify-fit5225-dev-85959-deployment",
@@ -30,6 +27,9 @@
       },
       "storage": {
         "s3Images": {}
+      },
+      "auth": {
+        "fit5225419e0a43": {}
       }
     }
   }
