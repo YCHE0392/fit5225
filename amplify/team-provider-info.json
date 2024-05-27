@@ -16,7 +16,20 @@
         "fit522535cdabc7": {}
       },
       "function": {
-        "uploadimage": {}
+        "uploadimage": {
+          "deploymentBucketName": "amplify-fit5225-dev-85959-deployment",
+          "s3Key": "amplify-builds/uploadimage-754f43616e6857707733-build.zip"
+        },
+        "S3Triggercc3728d2": {
+          "deploymentBucketName": "amplify-fit5225-dev-85959-deployment",
+          "s3Key": "amplify-builds/S3Triggercc3728d2-6d6f547a6d7a356f3253-build.zip"
+        }
+      },
+      "api": {
+        "fitapi": {}
+      },
+      "storage": {
+        "s3Images": {}
       }
     }
   }
